@@ -61,7 +61,14 @@ h1 {
     justify-content: center;
     
 }
+.temp-box{
+    display: flex;
+    flex-direction: row;
 
+}
+sup{
+  font-size: 32px;  
+}
 .temp {
     
     padding-bottom: 5px;

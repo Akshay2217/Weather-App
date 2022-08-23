@@ -16,7 +16,7 @@ const getWeatherData = async(city) =>{
     document.querySelector(".City").innerHTML = `${myJson.name}`;
     document.querySelector(".icon").innerHTML = `<img src="http://openweathermap.org/img/wn/${myJson.weather[0].icon}@2x.png" alt="">`;
     document.querySelector(".desc").innerHTML = ` ${myJson.weather[0].description}`;
-    document.querySelector(".temp").innerHTML = `  ${myJson.main.temp}<sup>℃</sup>`;
+    document.querySelector(".temp").innerHTML = `  ${myJson.main.temp}`;
     let weather = myJson.weather[0].main;
 
     if (weather == "Rain") {
