@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,11 +8,66 @@
     <title>Weather App</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
-</head>
-<body>
-    <div class="container">
-        <h1>Weather App</h1>
-    </div>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <h1>Weather App</h1>
+
+            <div class="wrap">
+                <div class="search">
+                    <input type="text" id="city" class="searchTerm">
+                    <button type="submit" class="searchButton" onclick="getValueInput()">
+                        <i class="fa fa-search"></i>
+                    </button>
+                </div>
+            </div>
+
+
+            <h2 class="City"></h2>
+            <div class="description">
+                <div class="icon"></div>
+                <h3 class="desc"></h3>
+            </div>
+            <p class="temp"></p>
+
+        </div>
+
+    </main>
+    <footer>
+        <div class="footer">
+            <h4>Made with ❤️ by <a id="sourcecode"
+                    href="https://www.linkedin.com/in/akshay-sonawane-b748a3244">Akshay</a></h4>
+            <h5><a id="sourcecode" href="https://github.com/Akshay2217/Weather-App">Source Code </a>© Akshay Sonawane
+            </h5>
+
+            <div class="social">
+                <a id="icon1" href="https://github.com/Akshay2217"><i class="fab fa-github"></i></a>
+                <a id="icon2" href="https://twitter.com/AkshayS83588033?t=nYpmlHUt0PxEIAs9PgAAtA&s=03"><i
+                        class="fab fa-twitter"></i></a>
+                <a id="icon3" href="#"><i class="fab fa-instagram"></i></a>
+                <a id="icon4" href="https://www.linkedin.com/in/akshay-sonawane-b748a3244"><i
+                        class="fab fa-linkedin"></i></a>
+
+            </div>
+
+
+
+            <!-- github twitter linkedin instagram circle icons -->
+        </div>
+    </footer>
+
+
+
+
+
+
+    <!-- <script src="https://kit.fontawesome.com/90d7a6835c.js" crossorigin="anonymous"></script> -->
 </body>
+
 </html>
